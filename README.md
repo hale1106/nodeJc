@@ -16,7 +16,7 @@ module.exports = {
     "jcRootDir":"/home/hale/workspace/",        //js/css实际存放项目根目录
     "jcDir":arg.length>0 ? arg : ["/home/hale/workspace/prod/activity/test.html"],  //需要合并压缩的目录绝对路径（可以与根目录相同）
     "extension":[".jsp",".php",".html",".ejs"],      //需要解析的扩展名
-    "blacklist":["DD_belatedPNG_0.0.8a.*.js"],                        //不需要合并压缩的名单，正规格式
+    "blacklist":["DD_belatedPNG_0.0.8a.*.js"],                        //不需要合并压缩的名单，正则格式
     "jsReq":"http://nuomi.xnimg.cn/Jc/js/",                      //合并后js资源url
     "cssReq":"http://nuomi.xnimg.cn/Jc/css/",                      //合并后css资源url
     "jsDir":"/home/hale/workspace/Jc/js/",     //压缩合并后js目录
